@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A cinematic sunflower microsite with realistic growth animation and clean botanical design."
+    />
+    <title>Helia | Sunflower Bloom</title>
+  </head>
+  <body>
+    <main class="site-shell">
+      <section class="hero" aria-label="Sunflower bloom experience">
+        <div class="scene-wrap">
+          <canvas id="sunflower-scene" aria-label="Animated realistic sunflower"></canvas>
+          <div class="sun-wash" aria-hidden="true"></div>
+          <div class="grain" aria-hidden="true"></div>
+        </div>
+
+        <header class="topbar">
+          <a class="brand" href="#" aria-label="Helia home">
+            <span class="brand-mark" aria-hidden="true"></span>
+            <span>Helia</span>
+          </a>
+          <nav class="nav" aria-label="Primary navigation">
+            <a href="#cultivar">Cultivar</a>
+            <a href="#growth">Growth</a>
+            <a href="#care">Care</a>
+          </nav>
+        </header>
+
+        <div class="hero-copy">
+          <p class="eyebrow" data-reveal>Botanical motion study</p>
+          <h1 class="split-title" data-reveal aria-label="Sunflower">Sunflower</h1>
+          <p class="lede" data-reveal>
+            A clean living canvas where stem, leaves, seeds, and petals unfold with cinematic depth.
+          </p>
+          <div class="hero-actions" data-reveal>
+            <a class="primary-action" href="#cultivar" aria-label="Explore the sunflower details">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M5 12h14M13 6l6 6-6 6" />
+              </svg>
+              Explore
+            </a>
+            <button class="icon-action" id="rebloom" aria-label="Replay bloom animation" title="Replay bloom">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M3 12a9 9 0 1 0 3-6.7M3 4v6h6" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-band" id="cultivar">
+        <div class="section-kicker" data-reveal>Cultivar</div>
+        <div class="content-grid">
+          <h2 class="text-mask" data-reveal>Built like a real flower, revealed like a film shot.</h2>
+          <p data-reveal>
+            The bloom is modeled from layered elliptical petals, phyllotaxis seed spirals, waxed leaves,
+            and a tapering green stem. The opening motion avoids flat pop-ins: each layer rotates, scales,
+            and catches light at a slightly different pace.
+          </p>
+        </div>
+      </section>
+
+      <section class="stat-band" aria-label="Sunflower profile">
+        <article data-reveal>
+          <span class="stat-number" data-count-to="100">0</span>
+          <p>days from seed to mature bloom in warm seasonal light.</p>
+        </article>
+        <article data-reveal>
+          <span class="stat-number" data-count-to="1000" data-count-suffix="+">0+</span>
+          <p>tiny florets can form the spiral pattern in a single head.</p>
+        </article>
+        <article data-reveal>
+          <span class="stat-number" data-count-to="8" data-count-suffix=" hrs">0 hrs</span>
+          <p>of direct sun keeps stems firm and petals vividly saturated.</p>
+        </article>
+      </section>
+
+      <section class="growth-band" id="growth">
+        <div class="section-kicker" data-reveal>Growth</div>
+        <figure class="growth-image" data-reveal>
+          <img
+            src="/assets/sunflower-growth-stages.png"
+            alt="Four-panel botanical illustration showing sunflower growth from germinating seed to mature bloom"
+          />
+        </figure>
+        <div class="timeline">
+          <article data-reveal>
+            <span>Week 01</span>
+            <h3 class="text-mask">Germination</h3>
+            <p>The seed coat opens, the first root anchors downward, and a pale shoot begins its quiet rise.</p>
+          </article>
+          <article data-reveal>
+            <span>Week 03</span>
+            <h3 class="text-mask">True Leaves</h3>
+            <p>Leaf pairs widen to gather light, feeding a stronger stem and setting the rhythm for height.</p>
+          </article>
+          <article data-reveal>
+            <span>Week 07</span>
+            <h3 class="text-mask">Bud Formation</h3>
+            <p>A green bud gathers at the crown, wrapped tight before the yellow petals begin to separate.</p>
+          </article>
+          <article data-reveal>
+            <span>Week 10</span>
+            <h3 class="text-mask">Full Face</h3>
+            <p>The flower opens into a wide disc, revealing seed geometry and a ring of warm, lifted petals.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="care-notes" id="care">
+        <div class="section-kicker" data-reveal>Care Notes</div>
+        <div class="care-grid">
+          <div class="care-intro" data-reveal>
+            <h2 class="text-mask">Designed for calm care, bright windows, and patient observation.</h2>
+            <p>
+              Sunflowers are generous when their basics are steady: strong light, deep watering, open soil,
+              and enough space for roots to breathe. Treat the care rhythm like a slow animation: small,
+              consistent inputs become dramatic growth.
+            </p>
+          </div>
+          <div class="care-list" aria-label="Sunflower care checklist">
+            <article data-reveal>
+              <span>Light</span>
+              <p>Choose the brightest position available. Rotate containers weekly for a straighter stem.</p>
+            </article>
+            <article data-reveal>
+              <span>Water</span>
+              <p>Water deeply when the top layer of soil dries, then let excess drain completely.</p>
+            </article>
+            <article data-reveal>
+              <span>Soil</span>
+              <p>Use loose, nutrient-rich soil with enough structure to support rapid root growth.</p>
+            </article>
+            <article data-reveal>
+              <span>Space</span>
+              <p>Give each plant room so leaves can open without trapping moisture against the stem.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="texture-band" aria-label="Botanical details">
+        <div class="texture-copy" data-reveal>
+          <div class="section-kicker">Details</div>
+          <h2 class="text-mask">Every surface has a job: catch light, move water, invite pollinators.</h2>
+        </div>
+        <div class="texture-grid">
+          <article data-reveal>
+            <h3 class="text-mask">Petals</h3>
+            <p>Thin, warm, and slightly translucent at the edges, built to read as a signal from a distance.</p>
+          </article>
+          <article data-reveal>
+            <h3 class="text-mask">Seeds</h3>
+            <p>Arranged in spiral families, dense enough to feel architectural and organic at the same time.</p>
+          </article>
+          <article data-reveal>
+            <h3 class="text-mask">Leaves</h3>
+            <p>Broad green planes that trade gloss for texture, catching light without looking artificial.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="care-band" data-reveal>
+        <p class="text-mask" data-reveal>Morning light. Patient water. One clean interface.</p>
+      </section>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
