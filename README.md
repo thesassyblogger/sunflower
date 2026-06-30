@@ -80,14 +80,14 @@ npm run build
 
 ```text
 .
-├── index.html
-├── package.json
-├── public/
-│   └── assets/
-│       └── sunflower-growth-stages.png
-└── src/
-    ├── main.js
-    └── styles.css
+|-- index.html
+|-- package.json
+|-- public/
+|   `-- assets/
+|       `-- sunflower-growth-stages.png
+`-- src/
+    |-- main.js
+    `-- styles.css
 ```
 
 ## Notes
